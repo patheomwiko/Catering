@@ -1,20 +1,2 @@
-/* You can add global styles to this file, and also import other style files */
-@media (max-width: 575.98px) {
-  .container-fluid {
-    display: block;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .container-fluid {
-    display: block;
-  }
-}
-
-@media (max-width: 1199.98px) {
-  .container-fluid {
-    display: block;
-  }
-}
 
 
