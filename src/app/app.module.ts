@@ -11,12 +11,22 @@ import { EvenementComponent } from './evenement/evenement.component';
 import { ContactComponent } from './contact/contact.component';
 import {Route, RouterModule, Routes} from '@angular/router';
 import { AccueilComponent } from './accueil/accueil.component';
+import { AnniversaireComponent } from './anniversaire/anniversaire.component';
+import { CongreComponent } from './congre/congre.component';
+import { CocktailComponent } from './cocktail/cocktail.component';
+import { FuneraillesComponent } from './funerailles/funerailles.component';
+import { MariageComponent } from './mariage/mariage.component';
 
 const routes: Routes = [
   {path: 'accueil', component: AccueilComponent},
   {path: 'menu', component: MenuComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'evenement', component: EvenementComponent},
+  {path: 'anniversaire', component: AnniversaireComponent},
+  {path: 'congre', component: CongreComponent},
+  {path: 'cocktail', component: CocktailComponent},
+  {path: 'funerailles', component: FuneraillesComponent},
+  {path: 'mariage', component: MariageComponent},
   {path: '', redirectTo: '/accueil', pathMatch: 'full'}
 ]
 @NgModule({
@@ -25,7 +35,12 @@ const routes: Routes = [
     MenuComponent,
     EvenementComponent,
     ContactComponent,
-    AccueilComponent
+    AccueilComponent,
+    AnniversaireComponent,
+    CongreComponent,
+    CocktailComponent,
+    FuneraillesComponent,
+    MariageComponent
   ],
   imports: [
     BrowserModule,
