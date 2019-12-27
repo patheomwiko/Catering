@@ -24,6 +24,7 @@ const routes: Routes = [
   {path: 'contact', component: ContactComponent},
   {path: 'evenement', component: EvenementComponent},
   {path: 'propos', component: ProposComponent},
+  {path: 'anniversaire', component: AnniversaireComponent},
   {path: 'congre', component: CongreComponent},
   {path: 'cocktail', component: CocktailComponent},
   {path: 'funerailles', component: FuneraillesComponent},
