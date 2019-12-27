@@ -17,6 +17,8 @@ import { CocktailComponent } from './evenement/cocktail/cocktail.component';
 import { FuneraillesComponent } from './evenement/funerailles/funerailles.component';
 import { MariageComponent } from './evenement/mariage/mariage.component';
 import { ProposComponent } from './propos/propos.component';
+import { FroidComponent } from './menu/froid/froid.component';
+import { ChaudComponent } from './menu/chaud/chaud.component';
 
 const routes: Routes = [
   {path: 'accueil', component: AccueilComponent},
@@ -43,7 +45,9 @@ const routes: Routes = [
     CocktailComponent,
     FuneraillesComponent,
     MariageComponent,
-    ProposComponent
+    ProposComponent,
+    FroidComponent,
+    ChaudComponent
   ],
   imports: [
     BrowserModule,
