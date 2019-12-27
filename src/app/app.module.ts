@@ -16,6 +16,7 @@ import { CongreComponent } from './evenement/congre/congre.component';
 import { CocktailComponent } from './evenement/cocktail/cocktail.component';
 import { FuneraillesComponent } from './evenement/funerailles/funerailles.component';
 import { MariageComponent } from './evenement/mariage/mariage.component';
+import { ProposComponent } from './propos/propos.component';
 
 const routes: Routes = [
   {path: 'accueil', component: AccueilComponent},
@@ -40,7 +41,8 @@ const routes: Routes = [
     CongreComponent,
     CocktailComponent,
     FuneraillesComponent,
-    MariageComponent
+    MariageComponent,
+    ProposComponent
   ],
   imports: [
     BrowserModule,
