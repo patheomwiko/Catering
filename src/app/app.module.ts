@@ -20,6 +20,8 @@ import { ProposComponent } from './propos/propos.component';
 import { FroidComponent } from './menu/froid/froid.component';
 import { ChaudComponent } from './menu/chaud/chaud.component';
 import { OeuvreComponent } from './menu/oeuvre/oeuvre.component';
+import { PatisserieComponent } from './menu/patisserie/patisserie.component';
+import { DejeunerComponent } from './menu/dejeuner/dejeuner.component';
 
 const routes: Routes = [
   {path: 'accueil', component: AccueilComponent},
@@ -49,7 +51,9 @@ const routes: Routes = [
     ProposComponent,
     FroidComponent,
     ChaudComponent,
-    OeuvreComponent
+    OeuvreComponent,
+    PatisserieComponent,
+    DejeunerComponent
   ],
   imports: [
     BrowserModule,
