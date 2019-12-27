@@ -34,6 +34,11 @@ const routes: Routes = [
   {path: 'cocktail', component: CocktailComponent},
   {path: 'funerailles', component: FuneraillesComponent},
   {path: 'mariage', component: MariageComponent},
+  {path: 'chaud', component: ChaudComponent},
+  {path: 'dejeuner', component: DejeunerComponent},
+  {path: 'froid', component: FroidComponent},
+  {path: 'oeuvre', component: OeuvreComponent},
+  {path: 'patisserie', component: PatisserieComponent},
   {path: '', redirectTo: '/accueil', pathMatch: 'full'}
 ]
 @NgModule({
