@@ -1,5 +1,4 @@
 
-
 <div class="container-fluid">
   <!-- Jumbotron -->
   <div class="card card-image" style="background-image: url('assets/images/t.jpg');">
@@ -29,11 +28,11 @@
         <div class="card collection-card z-depth-1-half">
           <!-- Card image -->
           <div class="view zoom">
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/5.jpg" class="img-fluid"
+            <img src="assets/images/g.jpg" class="img-fluid"
                  alt="">
             <div class="stripe dark">
-              <a>
-                <p>Red trousers
+              <a class="menu" [routerLink]="['/anniversaire']">
+                <p>anniversaire
                   <i class="fas fa-angle-right"></i>
                 </p>
               </a>
@@ -43,6 +42,7 @@
         </div>
         <!-- Collection card -->
       </div>
+      <router-outlet></router-outlet>
       <!-- Grid column -->
 
       <!-- Grid column -->
@@ -51,11 +51,11 @@
         <div class="card collection-card z-depth-1-half">
           <!-- Card image -->
           <div class="view zoom">
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/8.jpg" class="img-fluid"
+            <img src="assets/images/g.jpg"class="img-fluid"
                  alt="">
             <div class="stripe light">
-              <a>
-                <p>Sweatshirt
+              <a class="menu" [routerLink]="['/congre']">
+                <p>congre
                   <i class="fas fa-angle-right"></i>
                 </p>
               </a>
@@ -73,11 +73,11 @@
         <div class="card collection-card z-depth-1-half">
           <!-- Card image -->
           <div class="view zoom">
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/9.jpg" class="img-fluid"
+            <img src="assets/images/g.jpg" class="img-fluid"
                  alt="">
             <div class="stripe dark">
-              <a>
-                <p>Accessories
+              <a class="menu" [routerLink]="['/cocktail']">
+                <p>cocktail
                   <i class="fas fa-angle-right"></i>
                 </p>
               </a>
@@ -95,11 +95,11 @@
         <div class="card collection-card z-depth-1-half">
           <!-- Card image -->
           <div class="view zoom">
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/7.jpg" class="img-fluid"
+            <img src="assets/images/g.jpg" class="img-fluid"
                  alt="">
             <div class="stripe light">
-              <a>
-                <p>Sweatshirt
+              <a class="menu" [routerLink]="['/funerailles']">
+                <p>funerailles
                   <i class="fas fa-angle-right"></i>
                 </p>
               </a>
@@ -110,10 +110,113 @@
         <!-- Collection card -->
       </div>
       <!-- Fourth column -->
-
+      <!-- Fourth column -->
     </div>
     <!-- Grid row -->
 
+
+
   </section>
 </div>
+<div class="container-fluid">
+  <section class="text-center my-5">
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
+        <!-- Collection card -->
+        <div class="card collection-card z-depth-1-half">
+          <!-- Card image -->
+          <div class="view zoom">
+            <img src="assets/images/g.jpg" class="img-fluid"
+                 alt="">
+            <div class="stripe dark">
+              <a class="menu" [routerLink]="['/mariage']">
+                <p>mariage
+                  <i class="fas fa-angle-right"></i>
+                </p>
+              </a>
+            </div>
+          </div>
+          <!-- Card image -->
+        </div>
+        <!-- Collection card -->
+      </div>
+      <router-outlet></router-outlet>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
+        <!-- Collection card -->
+        <div class="card collection-card z-depth-1-half">
+          <!-- Card image -->
+          <div class="view zoom">
+            <img src="assets/images/g.jpg"class="img-fluid"
+                 alt="">
+            <div class="stripe light">
+              <a class="menu" [routerLink]="['/congre']">
+                <p>congre
+                  <i class="fas fa-angle-right"></i>
+                </p>
+              </a>
+            </div>
+          </div>
+          <!-- Card image -->
+        </div>
+        <!-- Collection card -->
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-3 col-md-6 mb-md-0 mb-4">
+        <!-- Collection card -->
+        <div class="card collection-card z-depth-1-half">
+          <!-- Card image -->
+          <div class="view zoom">
+            <img src="assets/images/g.jpg" class="img-fluid"
+                 alt="">
+            <div class="stripe dark">
+              <a class="menu" [routerLink]="['/cocktail']">
+                <p>cocktail
+                  <i class="fas fa-angle-right"></i>
+                </p>
+              </a>
+            </div>
+          </div>
+          <!-- Card image -->
+        </div>
+        <!-- Collection card -->
+      </div>
+      <!-- Grid column -->
+
+      <!-- Fourth column -->
+      <div class="col-lg-3 col-md-6">
+        <!-- Collection card -->
+        <div class="card collection-card z-depth-1-half">
+          <!-- Card image -->
+          <div class="view zoom">
+            <img src="assets/images/g.jpg" class="img-fluid"
+                 alt="">
+            <div class="stripe light">
+              <a class="menu" [routerLink]="['/funerailles']">
+                <p>funerailles
+                  <i class="fas fa-angle-right"></i>
+                </p>
+              </a>
+            </div>
+          </div>
+          <!-- Card image -->
+        </div>
+        <!-- Collection card -->
+      </div>
+      <!-- Fourth column -->
+      <!-- Fourth column -->
+    </div>
+    <!-- Grid row -->
+
+
+
+  </section>
+</div>
+<router-outlet></router-outlet>
 
