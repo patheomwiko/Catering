@@ -23,7 +23,7 @@ const routes: Routes = [
   {path: 'menu', component: MenuComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'evenement', component: EvenementComponent},
-  {path: 'anniversaire', component: AnniversaireComponent},
+  {path: 'propos', component: ProposComponent},
   {path: 'congre', component: CongreComponent},
   {path: 'cocktail', component: CocktailComponent},
   {path: 'funerailles', component: FuneraillesComponent},
