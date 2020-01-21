@@ -1,5 +1,5 @@
 
-<div class="container-fluid">
+<!-- <div class="container-fluid">
   <div class="wrap">
     <div class="logo">CONTACTEZ-NOUS : 243 </div>
     <ul class="wrap1">
@@ -10,7 +10,37 @@
       <li class="wrap2"><a class="menu" [routerLink]="['/contact']">CONTACT</a></li>
     </ul>
   </div>
-</div>
+</div> -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#">Navbar w/ text</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link"  [routerLink]="['/accueil']">Accueil <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/menu']">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/evenement']">Evenement</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/evenement']">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/evenement']">A propos</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      Navbar text with an inline element
+    </span>
+  </div>
+</nav>
 <router-outlet></router-outlet>
 
 <div class="container-fluid">
